@@ -3,19 +3,29 @@
 <head>
 	<meta charset="UTF-8">
 	<link href="balls.css" rel="stylesheet">
+	<title>Simple Ball Project</title>
 </head>
 <body>
+	<a href="https://github.com/GaurangTandon"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/121cd7cbdc3e4855075ea8b558508b91ac463ac2/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_green_007200.png"></a>
+
 	<div id="block">
-		<h1>Welcome to balls experiment!</h1>
+		<h1>Welcome to balls project!</h1>
 		
 		<form name="ballData">
-			<input type="number" id="velocity" placeholder="Velocity with which ball is thrown"/>
-			<input type="number" id="radius" placeholder="Ball radius" />
-			<input type="number" id="dFY" placeholder="Ball decrease factor wall up/bottom" />
-			<input type="number" id="angle" placeholder="Angle at which ball is shot (degree)"/>
-			<input type="text" id="color" placeholder="Ball color" />
+			<label>Initial ball velocity: <input type="number" id="velocity"/></label>
+			<label>Ball radius: <input type="number" id="radius" /></label>
+			<label>Energy loss per collision: <input type="number" id="energyLoss" /></label>
+			<label>Shoot angle: <input type="number" id="angle"/></label>
+			<label>Ball color: <input type="text" id="color" /></label> <br><br>
 			<input type="button" value="Shoot!" />
 		</form>
+		
+		<div id="ballList">
+			<p>List of all balls of the current session:</p>
+			<table>
+				<tr><td>Number</td><td>Color</td><td>X position</td><td>Y position</td><td>X Velocity</td><td>Y velocity</td><td>Shoot angle</td><td>Status</td></tr>
+			</table>
+		</div>
 	</div>
 
 	<div id="block2">
