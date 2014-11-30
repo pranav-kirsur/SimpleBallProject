@@ -21,3 +21,22 @@ html, body {
 canvas{
 	border: 1px solid black;
 }
+
+form{
+	width: 400px;
+	height: 255px;
+	margin: auto;
+}
+
+form label{
+	display: inline-block;
+	margin: 10px auto;
+}
+
+table, tr, td{
+	border: 1px solid #000;
+}
+
+table{
+	margin: auto;
+}
