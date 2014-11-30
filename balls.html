@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link href="balls.css" rel="stylesheet">
+</head>
+<body>
+	<div id="block">
+		<h1>Welcome to balls experiment!</h1>
+		
+		<form name="ballData">
+			<input type="number" id="velocity" placeholder="Velocity with which ball is thrown"/>
+			<input type="number" id="radius" placeholder="Ball radius" />
+			<input type="number" id="dFY" placeholder="Ball decrease factor wall up/bottom" />
+			<input type="number" id="angle" placeholder="Angle at which ball is shot (degree)"/>
+			<input type="text" id="color" placeholder="Ball color" />
+			<input type="button" value="Shoot!" />
+		</form>
+	</div>
+
+	<div id="block2">
+		<canvas width="600" height="600">You don't support canvas.</canvas>
+	</div>
+	
+	<script src="balls.js"></script>
+</body>
+</html>
