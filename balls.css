@@ -1,0 +1,23 @@
+*{margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body {
+	height: 99%;
+	width: 100%;
+	text-align: center;
+}
+
+#block{
+	float: left;
+	height: 100%;
+	width: 48%;
+}
+
+#block2{
+	float: right;
+	height: 100%;
+	width: 50%;
+}
+
+canvas{
+	border: 1px solid black;
+}
