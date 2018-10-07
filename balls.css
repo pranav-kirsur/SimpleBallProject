@@ -4,6 +4,8 @@ html, body {
 	height: 99%;
 	width: 100%;
 	text-align: center;
+	font-family: sans-serif;
+    	background-color: rgba(207, 238, 255, 0.62);
 }
 
 #block{
@@ -26,6 +28,8 @@ form{
 	width: 400px;
 	height: 255px;
 	margin: auto;
+	text-align: left;
+    	padding-left: 10px;
 }
 
 form label{
